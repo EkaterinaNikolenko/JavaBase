@@ -6,7 +6,6 @@ public class Burger {
     String cheese;
     String greenery;
     String mayonnaise;
-
     int countOfMeat;
 
     public Burger(String bun, String meat, String cheese, String greenery, String mayonnaise) {
