@@ -6,5 +6,6 @@ public class BurgerMain {
         Burger burger2 = new Burger("bun with sesame", "beef", "cheddar cheese", "cabbage");
         Burger burger3 = new Burger("bun with sesame", "beef", 2, "cheddar cheese", "cabbage");
         Burger burger4 = new Burger("bun with sesame", "beef", 2, "cheddar cheese", "cabbage", "mayonnaise");
+
     }
 }
