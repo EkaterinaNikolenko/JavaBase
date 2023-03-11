@@ -14,7 +14,9 @@ public class Main {
         System.out.println();
 
         user1.setSteps(11350);
+        user1.setLastname("Miller");
         user3.setWeight(38.0);
+        user3.setPressure(121);
 
         user1.printAccountInfo();
         System.out.println();
