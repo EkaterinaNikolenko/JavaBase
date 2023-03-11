@@ -12,6 +12,7 @@ public class User {
     private int pressure;
     private int steps;
     private int age;
+
     public User(String firstname, int day, int month, int year, String email, String telephoneNumber, String lastname, double weight, int pressure, int steps) {
         this.firstname = firstname;
         this.day = day;
@@ -26,7 +27,7 @@ public class User {
         this.steps = steps;
     }
 
-    void printAccountInfo(){
+    public void printAccountInfo(){
         System.out.println("first name: " + firstname);
         System.out.println("last name: " + lastname);
         System.out.println("date of birth: " + day + "." + month + "." + year);
