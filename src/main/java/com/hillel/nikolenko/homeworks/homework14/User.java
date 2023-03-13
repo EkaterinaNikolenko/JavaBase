@@ -1,12 +1,12 @@
 package com.hillel.nikolenko.homeworks.homework14;
 
 public class User {
-    private String firstname;
-    private int day;
-    private int month;
-    private int year;
-    private String email;
-    private String telephoneNumber;
+    private final String firstname;
+    private final int day;
+    private final int month;
+    private final int year;
+    private final String email;
+    private final String telephoneNumber;
     private String lastname;
     private double weight;
     private int pressure;
